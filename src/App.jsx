@@ -1,10 +1,8 @@
-import { useState } from "react";
 import Square from "./components/Square";
 import githubLogo from "./assets/github-mark-white.svg";
 import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0);
 
   return (
     <>
